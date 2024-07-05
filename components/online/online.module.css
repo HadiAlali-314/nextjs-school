@@ -1,0 +1,202 @@
+.container {
+  margin: auto;
+  display: flex;
+  width: 1440px;
+  height: 1128px;
+
+  padding: 112px 195px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  width: 1050px;
+  height: 904px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 112px;
+  flex-shrink: 0;
+}
+
+.textsec {
+  display: flex;
+  width: 691px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  height: 134px;
+}
+
+.textsec h4 {
+  color: var(--primary-text-color, #23a6f0);
+
+  /* h6 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+.textsec h1 {
+  color: #fff;
+
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+}
+.textsec p {
+  width: 469px;
+  height: 40px;
+  color: #fff;
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.cards {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  width: 1049px;
+  height: 658px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  width: 238px;
+  height: 658px;
+}
+
+.cardtext {
+  display: flex;
+  padding: 25px 25px 35px 25px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  background: #fff;
+  width: 240px;
+  height: 358px;
+}
+
+.cardtext h1 {
+  color: #23a6f0;
+  background: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.cardtext h2 {
+  background: none;
+  width: 131px;
+  color: #252b42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.cardtext p {
+  background: none;
+  width: 182px;
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+.cardtext svg {
+  background: none;
+
+  margin-right: 10px;
+}
+.cardtext h3 {
+  color: var(--second-text-color, #737373);
+
+  background: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.cardtext .oldP {
+  margin-right: 10px;
+  background: none;
+  color: #bdbdbd;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.cardtext h4 {
+  background: none;
+  color: #40bb15;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.cardtext h5 {
+  margin-top: 20px;
+  width: 199px;
+  background: none;
+  color: #737373;
+
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
+.cardtext button {
+  margin-top: 15px;
+  cursor: pointer;
+  background: none;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 37px;
+  border: 1px solid var(--primary-color, #23a6f0);
+}
+.cardtext button span {
+  color: #23a6f0;
+  background: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}

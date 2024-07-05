@@ -1,0 +1,128 @@
+.container {
+  margin: auto;
+  display: flex;
+  width: 1440px;
+  height: 928px;
+  padding: 170px 195px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin: auto;
+
+  display: flex;
+  width: 1050px;
+  height: 608px;
+
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 96px;
+  flex-shrink: 0;
+}
+.textsection {
+  display: flex;
+  width: 691px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.textsection h4 {
+  color: var(--primary-text-color, #23a6f0);
+
+  /* h6 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+.textsection h1 {
+  color: var(--light-text-color, #fff);
+  width: 710px;
+  /* h2 */
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+  letter-spacing: 0.2px;
+}
+.textsection p {
+  width: 469px;
+  height: 40px;
+  color: var(--light-text-color, #fff);
+
+  /* paragraph */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 1050px;
+  height: 378px;
+}
+
+.card {
+  display: flex;
+  width: 501px;
+  height: 378px;
+  padding: 25px 25px 0px 25px;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background: var(--light-background-color, #fff);
+}
+
+.card p {
+  background: none;
+  width: 341px;
+  color: var(--second-text-color, #737373);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+}
+.card h1 {
+  background: none;
+  color: var(--text-color, #252b42);
+  text-align: center;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+.card h2 {
+  background: none;
+  color: var(--second-text-color, #737373);
+  text-align: center;
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.card img {
+  border-radius: 99px;
+  width: 128px;
+  height: 128px;
+  flex-shrink: 0;
+  background: lightgray 50% / cover no-repeat;
+}
